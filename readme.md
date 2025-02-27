@@ -99,7 +99,7 @@ Query Parameters (GET /studio)
   - limit (integer, optional): Number of results per page.
   - cursor (integer, optional): ID to start pagination from.
 
-## Ticket API Table
+### Ticket API Table
 | Method   | Endpoint        | Description               |
 |----------|----------------|---------------------------|
 | **POST**   | `/ticket`  | Create a new ticket      |
