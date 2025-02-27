@@ -8,12 +8,12 @@ git clone https://github.com/your-username/cinema-api.git
 cd cinema-api
 ```
 
-1. **Install Dependencies**
+2. **Install Dependencies**
 ```sh
 npm install
 ```
 
-2. **Create .env files**
+3. **Create .env files**
 ```sh
 MYSQL_DATABASE=databasename
 MYSQL_USER=username
@@ -22,12 +22,12 @@ MYSQL_PORT=3306
 MYSQL_HOST=localhost
 ```
 
-3. **Run Migration**
+4. **Run Migration**
 ```sh
 npx sequelize-cli db:migrate
 ```
   
-4. **Run Apps**
+5. **Run Apps**
 ```sh
 npm start
 ```
